@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Advent Pro", sans-serif;
+}
+body {
+  background-color: #ebebeb;
+}
+nav .btn:hover {
+  border-color: #198754;
+}
