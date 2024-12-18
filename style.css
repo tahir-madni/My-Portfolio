@@ -32,10 +32,10 @@ nav .btn:hover {
     height: 75vh;
   }
 }
-.about {
+#about {
   color: #ebebeb;
 }
-.about .col > div {
+#about .col > div {
   background-color: #213555;
 }
 .progress {
@@ -56,9 +56,20 @@ nav .btn:hover {
 #soe-bar {
   width: 30%;
 }
-.projects div.btn{
-    color: #ebebeb;
+#projects div.btn {
+  color: #ebebeb;
 }
-.projects h3 > span {
+#projects h3 > span {
   color: #2e6499;
+}
+#contact {
+  background-color: #f1f0ef;
+}
+#contact img {
+  width: 8em;
+  background-color: #ebebeb;
+}
+#contact > div > a {
+  color: #f1f0ef;
+  background-color: #213555;
 }
