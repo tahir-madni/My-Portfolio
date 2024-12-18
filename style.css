@@ -21,15 +21,13 @@ body {
 #contact {
   background-color: #f1f0ef;
 }
+
 .service-icon {
   width: 2em;
   aspect-ratio: 1 /1;
 }
-@media screen and (min-width: 768px) {
-  #hero-content {
-    height: 75vh;
-  }
-}
+
+
 .progress {
   background-color: #e5e6e6;
 }
