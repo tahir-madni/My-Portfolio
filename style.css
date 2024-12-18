@@ -7,20 +7,18 @@
 body {
   background-color: #ebebeb;
 }
-nav .btn:hover {
-  border-color: #198754;
-}
-
 .text-outline {
   -webkit-text-stroke: 1px black;
   -webkit-text-fill-color: #ebebeb;
 }
-.text-outline-dark {
-  -webkit-text-stroke: 1px #ebebeb;
-  -webkit-text-fill-color: #213555;
+.border-underline {
+  border-bottom-color: #213555;
+  border-bottom-style: solid;
 }
 
-#services {
+#services,
+#about .col > div,
+#contact {
   background-color: #f1f0ef;
 }
 .service-icon {
@@ -32,17 +30,11 @@ nav .btn:hover {
     height: 75vh;
   }
 }
-#about {
-  color: #ebebeb;
-}
-#about .col > div {
-  background-color: #213555;
-}
 .progress {
-  background-color: #314e6a;
+  background-color: #e5e6e6;
 }
 .progress-bar {
-  background-color: #ebebeb;
+  background-color: #213555;
 }
 #html-bar {
   width: 85%;
@@ -56,20 +48,8 @@ nav .btn:hover {
 #soe-bar {
   width: 30%;
 }
-#projects div.btn {
-  color: #ebebeb;
-}
-#projects h3 > span {
-  color: #2e6499;
-}
-#contact {
-  background-color: #f1f0ef;
-}
+
 #contact img {
   width: 8em;
   background-color: #ebebeb;
-}
-#contact > div > a {
-  color: #f1f0ef;
-  background-color: #213555;
 }
